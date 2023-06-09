@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario do Aluno </title>
+
+    <!-- fontes -->
+    <link href="https: //fonts.googleapis.com/css2?family= Anton & display = swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="./CSS/style-cadastro.css">
+
+</head>
+<body>
+        <form target="/pesquisar">
+            <div class="container">
+                <h1> Cadastro do aluno </h1>
+                <hr>
+            </div>
+        <!-- Campo do Cliente -->
+            <div class="container">
+                <h3> Cliente </h3>
+                <label for=" nome "> Nome </label>
+                <br>
+                <input id="nome" type="text" name="nome " required placeholder=" Digite o seu nome" />
+                <br>
+                <label for=" email "> E-mail </label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Digite o seu email"/>
+                <br>
+                <label for=" idade "> Idade </label>
+                <br>
+                <input type="idade" id="idade" name="idade" placeholder=""/>
+                <br>
+                <hr>
+            </div>
+    
+             <!-- Campo do Endereço -->
+             <div class="container">
+                <h3> Endereço </h3>
+                <label for=" cep "> Cep </label><br>
+                <input id="cep" type="text" name="cep " required placeholder=" Cep " />
+                <br>
+                <label for=" rua "> Rua </label><br>
+                <input id="rua" type="text" name=" rua " required placeholder=" Digite o nome da rua" />
+                <br>
+                <label for=" numero "> Número </label><br>
+                <input id="numero" type="text" name="numero " required placeholder="  " />
+                <br>
+                <label for=" cidade "> Cidade </label><br>
+                <input id="Cidade" type="text" name=" cidade " required placeholder=" Cidade " />
+                <br>
+                <label for=" estado "> Estado </label><br>
+                <select id="estado" class="select2">
+                    <option value=""> Selecione </option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <br>
+                <hr>
+             </div>
+    
+              <!-- Campo para cartão de pagamento -->
+              <div class="container"> 
+                <h3> Pagamento Cartão </h3>
+                <label for=" numero do cartao "> Número do cartão </label><br>
+                <input id="numero do cartao" type="text" name="numero do cartao " required placeholder="         " />
+                <br>
+                <label for=" nome no cartao "> Nome no cartão </label><br>
+                <input id="nome no cartao" type="text" name="nome no cartao " required placeholder="         " />
+                <br>
+                <label for=" validade "> Válidade </label><br>
+                <input id="validade" type="text" name=" validade " required placeholder="         " />
+                <br>
+                <label for=" cvv "> CVV </label><br>
+                <input id="cvv" type="text" name=" cvv " required placeholder="         " />
+                <br>
+                <br>
+                <!-- Botão para enviar formulario -->
+                <button class="botao">
+                    <a href="https://wa.me/5585997843000?text=45" class=".botao" target="_blank"> Enviar </a>
+                </button>
+            
+              </div>
+    
+            </form>
+    </main>
+    
+</body>
+</html>
